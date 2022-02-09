@@ -1,0 +1,1 @@
+# bsasic template for kivy
