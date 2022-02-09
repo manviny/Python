@@ -11,6 +11,14 @@
 
 
 <MyLayout>
+	# WAY TO CHANGE  COLOR
+	background_color: (1,1,1,1)
+	canvas.before:
+		Color:
+			rgba: self.background_color
+		Rectangle:
+			size: self.size
+			pos: self.pos
 
 	BoxLayout:
 		orientation: "vertical"
