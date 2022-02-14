@@ -8,6 +8,7 @@ from kivy.properties import ObjectProperty
 from kivy.lang import Builder
 Builder.load_file('1x2.kv')
 
+
 class MyGridLayout(Widget):
  
     name = ObjectProperty(None)
